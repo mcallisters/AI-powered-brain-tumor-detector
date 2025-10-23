@@ -20,7 +20,7 @@ MODEL_PATH = 'best_model_m1_notebook.pt'
 IMG_SIZE = 224
 NUM_CLASSES = 2
 DEVICE = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
-OPTIMAL_THRESHOLD = 0.70
+OPTIMAL_THRESHOLD = 0.50
 
 # ========== LOAD MODEL (CACHED) ==========
 @st.cache_resource
