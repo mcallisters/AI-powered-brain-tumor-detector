@@ -197,7 +197,7 @@ def main():
         st.write("**Architecture**")
         st.write("- ResNet18 (transfer learning)")
         st.write("- Fine-tuned on brain scans")
-        st.write("- Threshold: 0.70")
+        st.write("- Threshold: 0.50")
 
     with col_info3:
         st.write("**Validation**")
