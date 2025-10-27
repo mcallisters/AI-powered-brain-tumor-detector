@@ -1,6 +1,7 @@
 # Brain Tumor Detection Web App
 
 An interactive **AI-powered web application** built with **Streamlit** and **PyTorch** that detects the presence of brain tumors from MRI scan images.  
+
 The model is based on **ResNet18** and fine-tuned on 1,356 labeled brain scan images.
 
 ---
